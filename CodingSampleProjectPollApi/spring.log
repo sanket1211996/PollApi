@@ -1,0 +1,30 @@
+2020-08-12 18:02:40.064  INFO 12608 --- [main] c.s.rest.pollApi.PollApiApplication      : Starting PollApiApplication on DESKTOP-1HDFF9D with PID 12608 (D:\Coding\SampleProject\PollApi\target\classes started by darwante in D:\Coding\SampleProject\PollApi)
+2020-08-12 18:02:40.068  INFO 12608 --- [main] c.s.rest.pollApi.PollApiApplication      : No active profile set, falling back to default profiles: default
+2020-08-12 18:02:40.842  INFO 12608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 18:02:40.908  INFO 12608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56ms. Found 1 JPA repository interfaces.
+2020-08-12 18:02:41.474  INFO 12608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-12 18:02:41.490  INFO 12608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 18:02:41.490  INFO 12608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-12 18:02:41.629  INFO 12608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-12 18:02:41.629  INFO 12608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1512 ms
+2020-08-12 18:02:41.691  INFO 12608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 18:02:41.830  INFO 12608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 18:02:41.837  INFO 12608 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-12 18:02:42.048  INFO 12608 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 18:02:42.126  INFO 12608 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 18:02:42.208  WARN 12608 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 18:02:42.228  INFO 12608 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-12 18:02:42.581  INFO 12608 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 18:02:42.739  INFO 12608 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-12 18:02:42.917  INFO 12608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-12 18:02:42.923  INFO 12608 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 18:02:43.461  INFO 12608 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 18:02:43.469  INFO 12608 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 18:02:43.741  INFO 12608 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 18:02:43.749  INFO 12608 --- [main] c.s.rest.pollApi.PollApiApplication      : Started PollApiApplication in 4.288 seconds (JVM running for 5.502)
+2020-08-12 18:02:58.140  INFO 12608 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-08-12 18:02:58.454  INFO 12608 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 18:02:58.455  INFO 12608 --- [RMI TCP Connection(6)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-12 18:02:58.505  INFO 12608 --- [RMI TCP Connection(6)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 18:02:58.506  INFO 12608 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 18:02:58.509  INFO 12608 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
