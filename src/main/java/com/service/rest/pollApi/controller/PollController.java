@@ -22,7 +22,7 @@ import com.service.rest.pollApi.model.Candidate;
 import com.service.rest.pollApi.model.Shape;
 import com.service.rest.pollApi.repository.CandidateRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://pollingangular.s3-website.us-east-2.amazonaws.com")
 @RestController
 @RequestMapping("/api")
 public class PollController {
